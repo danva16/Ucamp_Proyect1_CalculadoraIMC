@@ -23,3 +23,22 @@ while pers > 0:
         #Mostramos un mensaje si los datos ingresados son erroneos
     else:
         print("Favor de verificar los datos ingresados.")
+
+        print("Ahora con los datos obtenidos, se le hará su valoración")
+        #Verificamos el valor del IMC para mostrar un mensaje dependiendo del resultado
+        if 0 <= IMC <= 15.99:
+            print("Delgadez severa.")
+        elif 16 <= IMC < 16.99:
+            print("Delgadez moderada.")
+        elif 17 <= IMC < 18.49:
+            print("Delgadez leve.")
+        elif 18.5 <= IMC < 24.99:
+            print("Tienes un peso normal.")
+        elif 25 <= IMC < 29.99:
+            print("Tienes sobrepeso.")
+        elif 30 <= IMC < 34.99:
+            print("Tienes obesidad leve.")
+        elif 35 <= IMC < 39.99:
+            print("Tienes obesidad media.")
+        elif IMC >= 40:
+            print("Tienes obesidad mórbida.")
