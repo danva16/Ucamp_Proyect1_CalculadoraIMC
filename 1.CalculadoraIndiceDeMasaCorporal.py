@@ -10,5 +10,7 @@ while pers > 0:
     #Solicitamos el peso que siempre será un número flotante y lo guardamos en un input
     weight = float(input("Ingrese su peso en kg: "))
     #Solicitamos la altura que siempre será un número flotante y lo guardamos en un input
-    height = float(input("Ingrese su altura en metros: "))  
+    height = float(input("Ingrese su altura en metros: "))
+    #Calculamos el índice de masa corporal usando nuestra fórmula y guardamos en la variable IMC  
+    IMC = weight / (height ** 2)
     
