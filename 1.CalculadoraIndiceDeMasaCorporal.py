@@ -42,3 +42,6 @@ while pers > 0:
             print("Tienes obesidad media.")
         elif IMC >= 40:
             print("Tienes obesidad mórbida.")
+
+    #Restamos 1 a la variable pers para que el ciclo se ejecute hasta que se hayan ingresado todas las personas
+    pers -= 1
